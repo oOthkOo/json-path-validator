@@ -11,15 +11,10 @@ var jpv = function (obj, path, def) {
                 var arr = false;
                 var value = null;
                 var index = 0;
-                //console.log('object',object);
-                //console.log('typeof',typeof object);
-                //console.log('key',key);
                 if (key.indexOf('[') > -1) {
                     var r = key.match(/[0-9]+/g);
                     index = r[0];            
                     key = key.replace(/\[[0-9]+\]/g,'');
-                    //console.log('key-update',key);
-                    //console.log('index',index);
                     arr = true;
                 }
                 if (arr) {
@@ -41,8 +36,7 @@ var jpv = function (obj, path, def) {
                         return def ? def : null;
                     }
                 }
-                obj = value;
-                //console.log('value',value);        
+                obj = value;       
             }
             return value;
         }
