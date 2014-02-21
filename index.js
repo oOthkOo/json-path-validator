@@ -1,4 +1,4 @@
-function (obj, path, def) {
+var jpv = function (obj, path, def) {
             var self = this;
 
             if (!obj) {
