@@ -28,5 +28,6 @@ console.log( jpv( foo, 'valid', 0 ) ) // shows 'false'
 console.log( jpv( foo, 'options[0].lives', 0 ) ) // shows '2'
 console.log( jpv( foo, 'options[0].notExist', 10 ) ) // shows '10'
 console.log( jpv( foo, 'options[0].bonus[1].type', 10 ) ) // shows 'maxGauge' ;-)
+console.log( jpv( foo, 'options[0].bonus[10].type', null ) ) // shows 'null'
 
 ```
