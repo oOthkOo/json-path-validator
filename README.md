@@ -30,6 +30,6 @@ console.log( jpv( foo, 'options[0].notExist', 10 ) ) // shows '10'
 console.log( jpv( foo, 'options[0].bonus[1].type', 10 ) ) // shows 'maxGauge' ;-)
 console.log( jpv( foo, 'options[0].bonus[10].type', null ) ) // shows 'null'
 console.log( jpv( foo, 'options' ) ) // shows '[Object]'
-console.log( jpv( foo, 'game' ) ) // shows 'undefined'
+console.log( jpv( foo, 'game' ) ) // shows 'null'
 
 ```
