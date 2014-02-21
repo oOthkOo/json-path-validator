@@ -15,7 +15,7 @@ var foo = {
   options: [
     {
       lives: 2,
-      games: 14
+      games: 14,
       bonus: [
         { type: 'maxGauge', count: 145 },
         { type: 'maxGauge', count: 52 }
