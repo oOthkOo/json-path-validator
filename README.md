@@ -1,4 +1,4 @@
-json-path-validator
+json-path-validator [![SlugBay Badge](https://www.slugbay.com/pictures/badges/slugbay-simple.svg)](https://www.slugbay.com)
 ===================
 
 A simple function who can help you to know if an object path is valid
